@@ -1,0 +1,55 @@
+#main-container
+{
+height:500px;
+width:500px;
+background-image : url('Myntra.png');
+background-size:cover;
+background-position:center;
+text-align:center;
+margin: 40px auto
+}
+
+.child-container
+{
+display:flex;
+margin-top:5px;
+margin-left:200px;
+}
+ input
+ {
+ padding-top:10px;
+ text-align:center;
+ border : 2px solid grey;
+ font-weight:bold;
+ background-color:white;
+ border-left:0px;
+ outline:0px;
+
+ }
+ 
+ ::placeholder
+ {
+ color:black;
+
+ }
+
+
+ #btn
+ {
+ background-color:pink;
+ border : 2px solid
+ }
+ a
+ {
+ color:blue;
+ }
+
+ .icon1{
+ border:2px solid grey;
+ border-right:0px;
+ color:blue;
+ padding-left:3px;
+ padding-top:3px;
+ background-color:white;
+ }
+ 
